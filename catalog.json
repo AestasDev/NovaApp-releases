@@ -1,0 +1,61 @@
+{
+  "apps": [
+    {
+      "id": "hub",
+      "name": "Hub",
+      "tagline": "Tous vos jeux et applications dans un seul lanceur.",
+      "description": "Hub détecte automatiquement les applications et les jeux installés (Steam, Epic Games, GOG, Ubisoft Connect, Battle.net, EA app, Riot Client…) et les lance en un clic, au clavier ou à la manette.\n\nInterface façon console de jeu, vraies jaquettes, temps de jeu Steam, favoris et profils de lancement.",
+      "category": "Jeux",
+      "color": "#6d5df6",
+      "featured": true,
+      "icon": "icons/hub.png",
+      "homepage": "https://github.com/AestasDev/HUB-releases",
+      "github": { "repo": "AestasDev/HUB-releases", "asset": "Hub-Setup-*.exe" },
+      "download": { "type": "inno" },
+      "appId": "{8F2C6B9A-4D1E-4C3B-9A7E-5B2D1F0C8E11}",
+      "launch": "Hub.exe"
+    },
+    {
+      "id": "nova-connector",
+      "name": "Nova Connector",
+      "tagline": "Le compagnon de bord d'Elite Dangerous.",
+      "description": "Ton journal de jeu en direct, tes données partagées avec la communauté, et des outils pour l'exploration, l'ingénierie, le minage, le commerce, la colonisation et ton porte-vaisseau.\n\nAu premier lancement, un assistant t'aide à le régler en quelques écrans ; ensuite il lit le journal du jeu tout seul. En français et en anglais.",
+      "category": "Jeux",
+      "color": "#ff7a00",
+      "icon": "icons/nova-connector.png",
+      "homepage": "https://github.com/sebhoudelet-afk/NOVA-CONNECTOR-releases",
+      "github": { "repo": "sebhoudelet-afk/NOVA-CONNECTOR-releases", "asset": "Nova.Connector_*_x64-setup.exe" },
+      "download": { "type": "nsis" },
+      "registry": "Nova Connector",
+      "launch": "nova-connector.exe"
+    },
+    {
+      "id": "mixeur-audio",
+      "name": "Mixeur audio",
+      "tagline": "Le volume de chaque application, mémorisé.",
+      "description": "Réglez le volume de chaque sortie audio et de chaque application, et mémorisez-le : il est réappliqué automatiquement après un redémarrage du PC.\n\nInstallation pour votre compte, sans droits administrateur.",
+      "category": "Audio",
+      "color": "#7c6cf2",
+      "icon": "icons/mixeur-audio.png",
+      "homepage": "https://github.com/AestasDev/Mixeur-audio",
+      "github": { "repo": "AestasDev/Mixeur-audio", "asset": "MixeurAudio-Setup-*.exe" },
+      "download": { "type": "inno" },
+      "appId": "{8F2C6A31-4B7E-4E0D-9C55-3A1D7E2B9F64}",
+      "launch": "mixeur-audio.exe"
+    },
+    {
+      "id": "fivem-pack-installer",
+      "name": "FiveM Pack Installer",
+      "tagline": "Installe un pack graphique dans FiveM, et le retire d'un clic.",
+      "description": "Glissez un pack (.zip, .rar, .7z ou dossier) : le logiciel range chaque fichier à sa place dans FiveM ou GTA V, montre la liste avant de copier quoi que ce soit et sauvegarde tous les fichiers remplacés.\n\nUne licence est nécessaire : elle s'obtient sur le Discord Aestas Studio. L'installateur demande les droits administrateur et affiche les conditions d'utilisation à accepter.",
+      "category": "Jeux",
+      "color": "#f2c46d",
+      "icon": "icons/fivem-pack-installer.png",
+      "homepage": "https://github.com/AestasDev/FiveMPackInstaller-releases",
+      "github": { "repo": "AestasDev/FiveMPackInstaller-releases", "asset": "FiveMPackInstaller-Setup-*.exe" },
+      "download": { "type": "inno", "silent": false },
+      "appId": "{A6F1E4D2-9B3C-4E7A-8F21-5C2D9B7E1A44}",
+      "launch": "FiveMPackInstaller.exe"
+    }
+  ]
+}
