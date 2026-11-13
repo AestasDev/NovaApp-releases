@@ -44,6 +44,20 @@
       "launch": "mixeur-audio.exe"
     },
     {
+      "id": "novascreen",
+      "name": "NovaScreen",
+      "tagline": "Capturez une zone de l'écran, annotez-la, copiez-la.",
+      "description": "Appuyez sur Impr. écran (ou la touche de votre choix), sélectionnez une zone et annotez-la : crayon, ligne, flèche, rectangle, surligneur, texte. Copiez-la d'un Ctrl+C ou enregistrez-la en PNG, JPEG ou BMP.\n\nFonctionne aussi dans les jeux en plein écran. NovaScreen attend discrètement près de l'horloge et démarre avec Windows (désactivable depuis son icône). Installation pour votre compte, sans droits administrateur.",
+      "category": "Outils",
+      "color": "#7b4fc4",
+      "icon": "icons/novascreen.png",
+      "homepage": "https://github.com/AestasDev/NovaScreen-releases",
+      "github": { "repo": "AestasDev/NovaScreen-releases", "asset": "NovaScreen-Setup-*.exe" },
+      "download": { "type": "inno" },
+      "appId": "{7A1DC7D4-BF3A-4FB9-9853-AF5B50D57CE5}",
+      "launch": "NovaScreen.exe"
+    },
+    {
       "id": "fivem-pack-installer",
       "name": "FiveM Pack Installer",
       "tagline": "Installe un pack graphique dans FiveM, et le retire d'un clic.",
