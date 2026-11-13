@@ -31,17 +31,17 @@
     },
     {
       "id": "mixeur-audio",
-      "name": "Mixeur audio",
+      "name": "NovaMixeur",
       "tagline": "Le volume de chaque application, mémorisé.",
       "description": "Réglez le volume de chaque sortie audio et de chaque application, et mémorisez-le : il est réappliqué automatiquement après un redémarrage du PC.\n\nInstallation pour votre compte, sans droits administrateur.",
       "category": "Audio",
       "color": "#7c6cf2",
-      "icon": "icons/mixeur-audio.png",
-      "homepage": "https://github.com/AestasDev/Mixeur-audio",
-      "github": { "repo": "AestasDev/Mixeur-audio", "asset": "MixeurAudio-Setup-*.exe" },
+      "icon": "icons/novamixeur.png",
+      "homepage": "https://github.com/AestasDev/NovaMixeur",
+      "github": { "repo": "AestasDev/NovaMixeur", "asset": "NovaMixeur-Setup-*.exe" },
       "download": { "type": "inno" },
       "appId": "{8F2C6A31-4B7E-4E0D-9C55-3A1D7E2B9F64}",
-      "launch": "mixeur-audio.exe"
+      "launch": "novamixeur.exe"
     },
     {
       "id": "novascreen",
