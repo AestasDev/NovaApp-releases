@@ -19,6 +19,7 @@ L'installateur n'est pas signé numériquement. Si Windows SmartScreen affiche �
 | <img src="icons/hub.png" width="40" alt=""> | **Hub** | Tous vos jeux et applications dans un seul lanceur. |
 | <img src="icons/nova-connector.png" width="40" alt=""> | **Nova Connector** | Le compagnon de bord d'Elite Dangerous. |
 | <img src="icons/novamixeur.png" width="40" alt=""> | **NovaMixeur** | Le volume de chaque application, mémorisé. |
+| <img src="icons/novascreen.png" width="40" alt=""> | **NovaScreen** | Capturez une zone de l'écran, annotez-la, copiez-la. |
 | <img src="icons/fivem-pack-installer.png" width="40" alt=""> | **FiveM Pack Installer** | Installe un pack graphique dans FiveM, et le retire d'un clic. |
 
 Dans NovaApp, chaque logiciel s'installe avec le bouton **Installer**. Quand une nouvelle version sort, le bouton **Mettre à jour** apparaît. NovaApp se met aussi à jour tout seul.
